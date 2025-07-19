@@ -36,3 +36,42 @@ font-weight: 600;
     text-decoration: none;
     color:var(--font-color);
 }
+/* hero style */
+.hero-container{
+    display: flex;
+    justify-content: center;
+    gap:133px;
+    margin-top:50px;
+    padding-bottom:60px;
+}
+.hero-text{
+    width:582px;
+}
+.hero-title{
+    color:var(--font-color);
+    font-size:3.25rem;
+    font-weight:bold;
+}
+.hero-description{
+    color:var(--font-color);
+    font-size:1rem;
+    font-weight:600;
+}
+.btn-primary{
+    background-color: var(--btn-color);
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    border:none;
+    border-radius:41px;
+    padding:15px 24px;
+    margin-top:16px;
+    /* padding-bottom: 10px;
+    padding-right: 24px;
+    padding-left:24px; */
+}
+.hero-photo{
+    background-image: url('../images/Circle\ design.svg');
+    background-size: contain;
+    background-repeat:no-repeat;
+}
