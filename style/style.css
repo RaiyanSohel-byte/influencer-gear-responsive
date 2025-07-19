@@ -1,11 +1,4 @@
 /* font */
-
-.manrope-font {
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 .poppins-font {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -211,7 +204,8 @@ font-weight: 600;
 /* footer style */
 footer{
     background-color: rgb(10, 8, 38);
-    padding:50px 589px;
+    padding-top:50px;
+    padding-bottom:50px;
     margin-top:100px;
 }
 .footer-text,.footer-icon{
